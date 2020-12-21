@@ -15,7 +15,10 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Fitness site</title>
   </head>
   <body>
@@ -66,7 +69,9 @@
     <!------------ Welcome Text ------------>
     <section id="welcome">
       <div class="container">
-        <div class="welcome text-center">
+        <div
+          class="welcome text-center wow animate__animated animate__fadeInUp"
+        >
           <h1>Create Website With Animation</h1>
           <p>
             Contact BlessTheBoy today to create the best webistes for your brand
@@ -81,14 +86,18 @@
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 text-center">
+          <div
+            class="col-md-6 text-center wow animate__animated animate__fadeInLeft"
+          >
             <img
               src="images/emily-sea-coiWR0gT8Cw-unsplash.jpg"
               alt=""
               class="img-fluid"
             />
           </div>
-          <div class="col-md-6 text-justify">
+          <div
+            class="col-md-6 text-justify wow animate__animated animate__fadeInRight"
+          >
             <h3>Knowledge, Skills & Hardwork</h3>
             <p>
               Contact BlessTheBoy today to create the best webistes for your
@@ -99,7 +108,9 @@
               skills in all the latest and best web technologies
             </p>
           </div>
-          <div class="col-md-6 text-justify">
+          <div
+            class="col-md-6 text-justify wow animate__animated animate__fadeInLeft"
+          >
             <h3>Work Hard In Silence</h3>
             <p>
               Contact BlessTheBoy today to create the best webistes for your
@@ -110,7 +121,7 @@
               skills in all the latest and best web technologies
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 wow animate__animated animate__fadeInRight">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe
                 class="embed-responsive-item"
@@ -128,26 +139,50 @@
     <!------------ About Us ------------>
     <section id="services">
       <div class="container">
-        <div class="row">
+        <div class="row wow animate__animated animate__fadeInUp">
           <div class="col-md-4">
-            <img src="images/martial-arts.png" alt="" />
-            <h3>Mixed Martial Arts</h3>
+            <img
+              src="images/martial-arts.png"
+              class="wow animate__animated animate__fadeInRight animate__delay-1s"
+              alt=""
+            />
+            <h3
+              class="wow animate__animated animate__fadeInRight animate__delay-2s"
+            >
+              Mixed Martial Arts
+            </h3>
             <p>
               Contact BlessTheBoy today to create the best webistes for your
               brand and business.
             </p>
           </div>
           <div class="col-md-4">
-            <img src="images/weightlifter.png" alt="" />
-            <h3>Gym</h3>
+            <img
+              src="images/weightlifter.png"
+              class="wow animate__animated animate__fadeInRight animate__delay-1s"
+              alt=""
+            />
+            <h3
+              class="wow animate__animated animate__fadeInRight animate__delay-2s"
+            >
+              Gym
+            </h3>
             <p>
               Contact BlessTheBoy today to create the best webistes for your
               brand and business.
             </p>
           </div>
           <div class="col-md-4">
-            <img src="images/boxing-gloves.png" alt="" />
-            <h3>Boxing</h3>
+            <img
+              src="images/boxing-gloves.png"
+              class="wow animate__animated animate__fadeInRight animate__delay-1s"
+              alt=""
+            />
+            <h3
+              class="wow animate__animated animate__fadeInRight animate__delay-2s"
+            >
+              Boxing
+            </h3>
             <p>
               Contact BlessTheBoy today to create the best webistes for your
               brand and business.
@@ -161,14 +196,14 @@
     <section id="features">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 wow animate__animated animate__fadeInLeft">
             <img
               src="images/cathy-pham-3jAN9InapQI-unsplash.jpg"
               alt=""
               class="img-fluid"
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 wow animate__animated animate__fadeInDown">
             <div class="feature-box">
               <div class="feature-left">
                 <i class="fa fa-trophy"></i>
@@ -219,7 +254,9 @@
           to create the best webistes for your brand and business.
         </p>
         <div class="row">
-          <div class="col-md-4">
+          <div
+            class="col-md-4 wow animate__animated animate__fadeInLeft animate__delay-1s"
+          >
             <p class="review">
               Contact BlessTheBoy today to create the best webistes for your
               brand and business. <br />
@@ -227,7 +264,7 @@
             </p>
             <img src="images/avatar-ali.png" alt="" />
           </div>
-          <div class="col-md-4 middle">
+          <div class="col-md-4 middle wow animate__animated animate__fadeInUp">
             <p class="review">
               Contact BlessTheBoy today to create the best webistes for your
               brand and business. <br />
@@ -235,7 +272,9 @@
             </p>
             <img src="images/avatar-anisha.png" alt="" />
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4 wow animate__animated animate__fadeInRight animate__delay-1s"
+          >
             <p class="review">
               Contact BlessTheBoy today to create the best webistes for your
               brand and business. <br />
@@ -250,7 +289,9 @@
     <!------------ Subscribe ------------>
     <section id="subscribe">
       <div class="container">
-        <div class="subscribe text-center">
+        <div
+          class="subscribe text-center wow animate__animated animate__fadeInUp animate__delay-1s"
+        >
           <h3>Join For Free Trial Now!</h3>
           <p>Subscribe to Our Newsletter and Get 30 days Free trial</p>
           <div class="input-group">
@@ -325,6 +366,12 @@
     <script src="js/smooth-scroll.js"></script>
     <script>
       var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <!-- Animate.css -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
     </script>
   </body>
 </html>
